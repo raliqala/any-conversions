@@ -1,19 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "raliqala/any-conversions",
+    "description": "Everything conversion like Kilograms to Pounds, temperature, weight,volume, speed, length, angle, time etc..",
     "keywords": [
-        ":vendor_name",
-        ":package_slug"
+        "raliqala",
+        "any-conversions"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/raliqala/any-conversions",
     "license": "MIT",
-    "authors": [
-        {
-            "name": ":author_name",
-            "email": "author@domain.com",
-            "role": "Developer"
-        }
-    ],
+    "authors": [{
+        "name": "Topollo",
+        "email": "thabohappy@gmail.com",
+        "role": "Developer"
+    }],
     "require": {
         "php": "^8.0"
     },
@@ -25,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "raliqala\\AnyConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "raliqala\\AnyConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
