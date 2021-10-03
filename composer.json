@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Converter\\": "src"
+            "raliqala\\AnyConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Converter\\Tests\\": "tests"
+            "raliqala\\AnyConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
