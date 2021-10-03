@@ -1,47 +1,38 @@
-# any-conversions
+# Perform unit conversions in PHP
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/raliqala/any-conversions.svg?style=flat-square)](https://packagist.org/packages/raliqala/any-conversions)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/raliqala/any-conversions/run-tests?label=tests)](https://github.com/raliqala/any-conversions/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/:vendor_slug/:package_slug/Check%20&%20fix%20styling?label=code%20style)](https://github.com/:vendor_slug/:package_slug/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/raliqala/any-conversions/run-tests?label=tests)](https://github.com/raliqala/any-conversions/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/raliqala/any-conversions.svg?style=flat-square)](https://packagist.org/packages/raliqala/any-conversions)
 
----
-This package can be used as to scaffold a framework agnostic package. Follow these steps to get started:
+This package can perform various unit conversions. Right now, only kg to lbs is supported.
 
-1. Press the "Use template" button at the top of this repo to create a new repo with the contents of this skeleton
-2. Run "php ./configure.php" to run a script that will replace all placeholders throughout all the files
-3. Have fun creating your package.
-4. If you need help creating a package, consider picking up our <a href="https://laravelpackage.training">Laravel Package Training</a> video course.
----
+Here's how to use it:
 
-This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
+```php
+use raliqala\AnyConversions\Weight;
 
-## Support us
-
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/:package_name.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/:package_name)
-
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
+Weight::fromKilograms(100)->toLbs(); // returns 220.4623;
+```
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require :vendor_slug/:package_slug
+composer require raliqala/any-conversions
 ```
 
 ## Usage
 
+#### From kg to lbs
+
 ```php
-$skeleton = new VendorName\Skeleton();
-echo $skeleton->echoPhrase('Hello, VendorName!');
+raliqala\AnyConversions\Weight::fromKilograms(100)->toLbs(); // returns 220.4623;
 ```
 
 ## Testing
 
-```bash
+``` bash
 composer test
 ```
 
@@ -51,15 +42,15 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Contributing
 
-Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-## Security Vulnerabilities
+## Security
 
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
+If you discover any security related issues, please email freek@spatie.be instead of using the issue tracker.
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [Topollo](https://github.com/raliqala)
 - [All Contributors](../../contributors)
 
 ## License
