@@ -1,7 +1,7 @@
 # Perform unit conversions in PHP
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/raliqala/any-conversions.svg?style=flat-square)](https://packagist.org/packages/raliqala/any-conversions)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/raliqala/any-conversions/run-tests?label=tests)](https://github.com/raliqala/any-conversions/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/raliqala/any-conversions/run-tests?label=tests)](https://github.com/raliqala/any-conversions/actions?query=workflow%3ATests+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/raliqala/any-conversions.svg?style=flat-square)](https://packagist.org/packages/raliqala/any-conversions)
 
 This package can perform various unit conversions. Right now, only kg to lbs is supported.
