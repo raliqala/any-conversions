@@ -1,11 +1,11 @@
 blank_issues_enabled: true
 contact_links:
     - name: Ask a question
-      url: https://github.com/raliqala/any-conversions/discussions/new?category=q-a
+      url: https://github.com/raliqala/any-conversions/blob/main/.github/ISSUE_TEMPLATE/feature_request.md
       about: Ask the community for help
     - name: Request a feature
       url: https://github.com/raliqala/any-conversions/discussions/new?category=ideas
       about: Share ideas for new features
     - name: Report a bug
-      url: https://github.com/raliqala/any-conversions/issues/new
+      url: https://github.com/raliqala/any-conversions/blob/main/.github/ISSUE_TEMPLATE/bug_report.md
       about: Report a reproducable bug
