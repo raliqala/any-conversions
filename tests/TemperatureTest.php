@@ -15,7 +15,6 @@ class TemperatureTest extends TestCase
         $this->assertEquals(212.0000, $f, 'temperature');
     }
 
-
     /** @test */
     public function try_to_convert_Celsius_to_toKelvin()
     {
@@ -23,7 +22,6 @@ class TemperatureTest extends TestCase
 
         $this->assertEquals(373.1500, $k, 'temperature');
     }
-
 
     /** @test */
     public function try_to_convert_Celsius_to_Rankine()
@@ -33,7 +31,6 @@ class TemperatureTest extends TestCase
         $this->assertEquals(671.6700, $r, 'temperature');
     }
 
-
     /** @test */
     public function try_to_convert_Celsius_to_toNewton()
     {
@@ -41,7 +38,6 @@ class TemperatureTest extends TestCase
 
         $this->assertEquals(33.00000, $n, 'temperature');
     }
-
 
     /** @test */
     public function try_to_convert_Celsius_to_toReaumur()
