@@ -2,8 +2,8 @@
 
 namespace raliqala\AnyConversions\Tests;
 
-use raliqala\AnyConversions\Temperature;
 use PHPUnit\Framework\TestCase;
+use raliqala\AnyConversions\Temperature;
 
 class TemperatureTest extends TestCase
 {
