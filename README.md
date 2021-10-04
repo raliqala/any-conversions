@@ -4,7 +4,7 @@
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/raliqala/any-conversions/run-tests?label=tests)](https://github.com/raliqala/any-conversions/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/raliqala/any-conversions.svg?style=flat-square)](https://packagist.org/packages/raliqala/any-conversions)
 
-This package can perform various unit conversions. Right now, only kg to lbs is supported.
+This package can perform various unit conversions. Right now, It supports kg to other weights etc.. and celsius to other temperatures, this package is still new so i'm still compiling docs.
 
 Here's how to use it:
 
